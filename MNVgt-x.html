@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MNV GT-X - Modèle de Voiture</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; 
+            margin: 0;
+            padding: 0;
+            color: #fff; 
+        }
+        header {
+            background: linear-gradient(45deg, #1e2a47, #e67e22); 
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px; 
+            height: auto;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+            margin-left: 150px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #f5f5f5;
+            margin-top: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+        }
+        nav {
+            background-color: #2c3e50;
+            text-align: center;
+            padding: 14px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+        }
+        nav a {
+            color: white;
+            margin: 0 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #e67e22; 
+            text-decoration: underline;
+        }
+        .container {
+            width: 85%;
+            margin: 50px auto;
+        }
+        section {
+            background-color: #1e2a47;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+            margin-bottom: 50px; 
+            transition: background-color 0.3s ease;
+        }
+        section:hover {
+            background-color: #2c3e50; 
+        }
+        section h2 {
+            font-size: 2.8em;
+            color: #e67e22; 
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        section p {
+            font-size: 1.3em;
+            color: #ddd; 
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .car-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px; 
+            margin-top: 30px;
+        }
+        .car-details div {
+            background-color: #e67e22;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .car-details div:hover {
+            transform: translateY(-10px); 
+        }
+        .car-details div h3 {
+            font-size: 1.8em;
+            color: #1e2a47;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .car-details div p {
+            font-size: 1.1em;
+            color: #000;
+        }
+        .price {
+            font-size: 1.7em;
+            font-weight: bold;
+            color: #e67e22;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .car-image {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .car-image img {
+            width: 48%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #1e2a47;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.1em;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); 
+        }
+        footer a {
+            color: #e67e22;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <img src="c:\Users\noadi\Downloads\Intérieure gt-x.png" alt="Logo MNV" />
+    <h1>MNV GT-X - Modèle de Voiture</h1>
+    <p>Le luxe rencontre la performance dans le modèle MNV GT-X</p>
+</header>
+ 
+<nav>
+    <a href="MNVvoituredeluxe.html">Accueil</a>
+    <a href="#caracteristiques">Caractéristiques</a>
+    <a href="#prix">Prix</a>
+    <a href="#acheter">Acheter</a>
+</nav>
+ 
+<div class="container">
+ 
+    <section id="accueil">
+        <h2>Bienvenue dans l'univers du MNV GT-X</h2>
+        <p>Le modèle emblématique, équipé d'un moteur hybride de 700 chevaux, une accélération fulgurante et une autonomie de 600 km. Idéal pour ceux qui recherchent performance et durabilité.</p>
+       
+        <div class="car-image">
+            <img src="c:\Users\noadi\Downloads\MNV hybride.png" alt="MNV GT-X" />
+            <img src="c:\Users\noadi\Downloads\Intérieure gt-x.png" alt="MNV GT-X intérieur" />
+        </div>
+    </section>
+ 
+    <section id="caracteristiques">
+        <h2>Caractéristiques du MNV GT-X</h2>
+        <div class="car-details">
+            <div>
+                <h3>Performance</h3>
+                <p>Le MNV GT-X est équipé d'un moteur hybrid de 700 chevaux et d'une légèrté incomparable, permettant une accélération de 0 à 100 km/h en seulement 2.5 secondes et une vitesse de pointe de 410 km/h .</p>
+            </div>
+            <div>
+                <h3>Design Extérieur</h3>
+                <p>Avec sa silhouette aérodynamique, ses lignes sportives et sa forme originale, le MNV GT-X ne passe pas inaperçu. Un design futuriste et sportif qui capte les regards.</p>
+            </div>
+        </div>
+ 
+        <div class="car-details">
+            <div>
+                <h3>Intérieur</h3>
+                <p>L'intérieur du MNV GT-X respire le luxe et l'innovation technologique. L'habitacle du MNV GT-X est conçu pour envelopper le conducteur et les passagers dans un environnement à la fois luxueux et ultra-moderne.  Une interface entièrement numérique, parfaitement intégrée, affiche des informations essentielles telles que la vitesse, l'autonomie et les paramètres de conduite. Le design intuitif garantit une lisibilité parfaite, même à grande vitesse.</p>
+            </div>
+            <div>
+                <h3>Technologie</h3>
+                <p>MNV GT-X  n'est pas seulement une prouesse mécanique, mais également une vitrine des technologies les plus avancées du secteur automobile, intégrant des solutions innovantes pour une expérience de conduite sans précédent. elle embarque une IA intelligente capable d'analyser en temps réel les données de conduite. Elle adapte les réglages du véhicule (moteur, suspension, aérodynamisme) selon les conditions routières, assurant une efficacité et une sécurité optimales.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="prix">
+        <h2>Prix</h2>
+        <p class="price">Prix de base : <strong>4 200 000€</strong></p>
+        <p>Le MNV GT-X est disponible dans différentes configurations, avec des options sur mesure pour répondre à vos besoins et préférences.</p>
+    </section>
+ 
+    <section id="acheter">
+        <h2>Acheter le MNV GT-X</h2>
+        <p>Le MNV GT-X est disponible à l'achat. Contactez notre équipe pour plus d'informations sur la disponibilité, les options personnalisées et les offres de financement.</p>
+        <p><a href="mailto:contact@mvn.com">Contactez-nous</a> pour obtenir plus de détails et réserver votre véhicule.</p>
+    </section>
+ 
+</div>
+ 
+<footer>
+    <p>&copy; 2024 MNV. Tous droits réservés.</p>
+</footer>
+ 
+</body>
+</html>
+ 
+ 
